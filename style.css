@@ -6,10 +6,11 @@ body {
 }
 
 header {
-    background-color: #5b9383;
+    background-color: #ed635c;
     color: #fff;
     padding: 1em 0;
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header h1 {
@@ -48,7 +49,7 @@ main {
 .movie-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 40px;
 }
 
 .movie {
@@ -67,34 +68,6 @@ main {
 .movie-details {
     padding: 0px 0;
 }
-
-/* .seat-selection {
-    margin-top: 20px;
-}
-
-.seat-map {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.seat {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-    text-align: center;
-    line-height: 30px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
-
-.seat.available {
-    background-color: #fff;
-}
-
-.seat.occupied {
-    background-color: #999;
-    cursor: not-allowed;
-} */
 /* slide show */
 
 * {box-sizing:border-box}
@@ -184,16 +157,6 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-footer {
-    background-color: #85c5bd;
-    color: #fff;
-    text-align: center;
-    padding: 10px ;
-    position: absolute;
-    bottom: -90%;
-    width: 100%;
-}
 .modal {
     display: none;
     justify-content: center;
@@ -208,12 +171,12 @@ footer {
 }
 
 .modal-content {
-    background-color: #5b5b5bf6;
-    padding: 80px;
+    background-color: #5b5b5bae;
+    padding: 30px;
     border-radius: 45px;
     text-align: center;
     position: relative;
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     color: #4b8aef;
 }
@@ -222,9 +185,9 @@ footer {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
-    color: #1e1e1e;
+    color: #1e1e1e1c;
 }
 
 h2 {
@@ -235,8 +198,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 8px;
+    width: 90%;
+    padding: 5px;
     margin-bottom: 10px;
     border: none;
     border-radius: 100px;
@@ -286,4 +249,13 @@ p a {
 
 p a:hover {
     text-decoration: underline;
+}
+footer {
+    background-color: #ed635c;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    position: absolute;
+    bottom: -102%;
+    width: 100%;
 }
